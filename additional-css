@@ -1,0 +1,97 @@
+/*Storefront Header*/
+.site-header {
+	    display: grid;
+    grid-template-columns: 0 auto auto;
+    justify-content:center;
+    background-color: transparent !important;
+}
+
+.site-branding{
+    padding: 20px 0;
+}
+@media (min-width: 768px) {
+	header .col-full{
+		padding: 0;
+	}
+	secondary-navigation.woocommerce-active .site-header .site-branding {
+    width: 100%;
+}
+	.site-header .site-branding img{
+		    width: 180px;
+	}
+	.woocommerce-active .site-header .main-navigation {
+    width: 100%;
+}
+	.storefront-primary-navigation{
+		    margin-left: 15rem;
+	}
+}
+
+.site-search{
+    display: none;
+}
+.site-header {
+    border-bottom-color: transparent;
+}
+.site-header-cart{
+    display: none;
+}
+.storefront-breadcrumb{
+    display: none;
+}
+/*Storefront Header*/
+
+/*Navigation*/
+.site-title a:hover,
+.site-header ul.menu li.current-menu-item > a {
+    color: white !important;
+}
+.main-navigation ul li a:hover,
+.main-navigation ul li:hover > a {
+    color: #ffffffb5!important;
+}
+
+.main-navigation ul li a, ul.menu li a {
+    color: white !important;
+}
+/*Navigation*/
+
+/*Top Fold*/
+body {
+    background: linear-gradient(to right, #0064ee, #00bffe) no-repeat top;
+    background-size: 100% 100vh;
+}
+
+.elementor-section:nth-child(1) {
+    color: #fff;
+    height: 70vh !important;
+}
+.elementor-section .elementor-container{
+	margin-top:5rem
+}
+
+.elementor-widget-button a.elementor-button, .elementor-widget-button .elementor-button {
+    padding: 10px 35px;
+    margin-right: 1rem;
+    font-weight: 600;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.16), 0 1px 3px 0 rgba(0,0,0,0.12);
+    border-radius: 22px;
+	width:151px;
+	background: linear-gradient(to right, #0064ee, #00bffe) no-repeat top;
+}
+
+.elementor-widget-button.btn-buy a{
+	    color: #007dee;
+	background:#fff;
+}
+
+.elementor-widget-button.btn-learn a{
+	    color: #fff;
+	background:transparent;
+	 border: 2px solid white;
+}
+
+.hentry .entry-content a:not(.button) {
+    text-decoration: none;
+}
+/*Top Fold*/
